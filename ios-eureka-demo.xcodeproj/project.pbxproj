@@ -1,0 +1,719 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9FBD94391E7E2C7F009DEDAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBD94381E7E2C7F009DEDAD /* AppDelegate.swift */; };
+		9FBD943B1E7E2C7F009DEDAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBD943A1E7E2C7F009DEDAD /* ViewController.swift */; };
+		9FBD943E1E7E2C7F009DEDAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FBD943C1E7E2C7F009DEDAD /* Main.storyboard */; };
+		9FBD94401E7E2C7F009DEDAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FBD943F1E7E2C7F009DEDAD /* Assets.xcassets */; };
+		9FBD94431E7E2C7F009DEDAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FBD94411E7E2C7F009DEDAD /* LaunchScreen.storyboard */; };
+		9FBD944E1E7E2C7F009DEDAD /* ios_eureka_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBD944D1E7E2C7F009DEDAD /* ios_eureka_demoTests.swift */; };
+		9FBD94591E7E2C7F009DEDAD /* ios_eureka_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBD94581E7E2C7F009DEDAD /* ios_eureka_demoUITests.swift */; };
+		E970E345D7641ED422991109 /* Pods_ios_eureka_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFDF5C018E290AD9CEE7261 /* Pods_ios_eureka_demo.framework */; };
+		EB2932AC91820EA71B6178A9 /* Pods_ios_eureka_demoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76929A73075EFBA2C5952EC3 /* Pods_ios_eureka_demoUITests.framework */; };
+		F6E51B9ECEA4A60EC9227F92 /* Pods_ios_eureka_demoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 673B433F6BA2C62D07B05612 /* Pods_ios_eureka_demoTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9FBD944A1E7E2C7F009DEDAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FBD942D1E7E2C7F009DEDAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FBD94341E7E2C7F009DEDAD;
+			remoteInfo = "ios-eureka-demo";
+		};
+		9FBD94551E7E2C7F009DEDAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FBD942D1E7E2C7F009DEDAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FBD94341E7E2C7F009DEDAD;
+			remoteInfo = "ios-eureka-demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1746D57392579BDCC813B135 /* Pods-ios-eureka-demoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-eureka-demoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-eureka-demoTests/Pods-ios-eureka-demoTests.release.xcconfig"; sourceTree = "<group>"; };
+		673B433F6BA2C62D07B05612 /* Pods_ios_eureka_demoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_eureka_demoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76929A73075EFBA2C5952EC3 /* Pods_ios_eureka_demoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_eureka_demoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D01DBC4C875754A1C744AFE /* Pods-ios-eureka-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-eureka-demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-eureka-demo/Pods-ios-eureka-demo.release.xcconfig"; sourceTree = "<group>"; };
+		7DBB63033D43875411E35B5A /* Pods-ios-eureka-demoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-eureka-demoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-eureka-demoUITests/Pods-ios-eureka-demoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		85CA19E279E69C5EC648618D /* Pods-ios-eureka-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-eureka-demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-eureka-demo/Pods-ios-eureka-demo.debug.xcconfig"; sourceTree = "<group>"; };
+		99BBE461F941E0E6174C6854 /* Pods-ios-eureka-demoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-eureka-demoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-eureka-demoTests/Pods-ios-eureka-demoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9FBD94351E7E2C7F009DEDAD /* ios-eureka-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-eureka-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FBD94381E7E2C7F009DEDAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9FBD943A1E7E2C7F009DEDAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9FBD943D1E7E2C7F009DEDAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9FBD943F1E7E2C7F009DEDAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FBD94421E7E2C7F009DEDAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9FBD94441E7E2C7F009DEDAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FBD94491E7E2C7F009DEDAD /* ios-eureka-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-eureka-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FBD944D1E7E2C7F009DEDAD /* ios_eureka_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_eureka_demoTests.swift; sourceTree = "<group>"; };
+		9FBD944F1E7E2C7F009DEDAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FBD94541E7E2C7F009DEDAD /* ios-eureka-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-eureka-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FBD94581E7E2C7F009DEDAD /* ios_eureka_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_eureka_demoUITests.swift; sourceTree = "<group>"; };
+		9FBD945A1E7E2C7F009DEDAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A43DDD101E6FBD557DD4AB35 /* Pods-ios-eureka-demoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-eureka-demoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-eureka-demoUITests/Pods-ios-eureka-demoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		ACFDF5C018E290AD9CEE7261 /* Pods_ios_eureka_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_eureka_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FBD94321E7E2C7F009DEDAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E970E345D7641ED422991109 /* Pods_ios_eureka_demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FBD94461E7E2C7F009DEDAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6E51B9ECEA4A60EC9227F92 /* Pods_ios_eureka_demoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FBD94511E7E2C7F009DEDAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB2932AC91820EA71B6178A9 /* Pods_ios_eureka_demoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63D03E7DF60D83D5E20B6E55 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85CA19E279E69C5EC648618D /* Pods-ios-eureka-demo.debug.xcconfig */,
+				7D01DBC4C875754A1C744AFE /* Pods-ios-eureka-demo.release.xcconfig */,
+				99BBE461F941E0E6174C6854 /* Pods-ios-eureka-demoTests.debug.xcconfig */,
+				1746D57392579BDCC813B135 /* Pods-ios-eureka-demoTests.release.xcconfig */,
+				A43DDD101E6FBD557DD4AB35 /* Pods-ios-eureka-demoUITests.debug.xcconfig */,
+				7DBB63033D43875411E35B5A /* Pods-ios-eureka-demoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7E5EF78ABFD1684B6A1F39C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACFDF5C018E290AD9CEE7261 /* Pods_ios_eureka_demo.framework */,
+				673B433F6BA2C62D07B05612 /* Pods_ios_eureka_demoTests.framework */,
+				76929A73075EFBA2C5952EC3 /* Pods_ios_eureka_demoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9FBD942C1E7E2C7F009DEDAD = {
+			isa = PBXGroup;
+			children = (
+				9FBD94371E7E2C7F009DEDAD /* ios-eureka-demo */,
+				9FBD944C1E7E2C7F009DEDAD /* ios-eureka-demoTests */,
+				9FBD94571E7E2C7F009DEDAD /* ios-eureka-demoUITests */,
+				9FBD94361E7E2C7F009DEDAD /* Products */,
+				63D03E7DF60D83D5E20B6E55 /* Pods */,
+				7E5EF78ABFD1684B6A1F39C5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9FBD94361E7E2C7F009DEDAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FBD94351E7E2C7F009DEDAD /* ios-eureka-demo.app */,
+				9FBD94491E7E2C7F009DEDAD /* ios-eureka-demoTests.xctest */,
+				9FBD94541E7E2C7F009DEDAD /* ios-eureka-demoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FBD94371E7E2C7F009DEDAD /* ios-eureka-demo */ = {
+			isa = PBXGroup;
+			children = (
+				9FBD94381E7E2C7F009DEDAD /* AppDelegate.swift */,
+				9FBD943A1E7E2C7F009DEDAD /* ViewController.swift */,
+				9FBD943C1E7E2C7F009DEDAD /* Main.storyboard */,
+				9FBD943F1E7E2C7F009DEDAD /* Assets.xcassets */,
+				9FBD94411E7E2C7F009DEDAD /* LaunchScreen.storyboard */,
+				9FBD94441E7E2C7F009DEDAD /* Info.plist */,
+			);
+			path = "ios-eureka-demo";
+			sourceTree = "<group>";
+		};
+		9FBD944C1E7E2C7F009DEDAD /* ios-eureka-demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9FBD944D1E7E2C7F009DEDAD /* ios_eureka_demoTests.swift */,
+				9FBD944F1E7E2C7F009DEDAD /* Info.plist */,
+			);
+			path = "ios-eureka-demoTests";
+			sourceTree = "<group>";
+		};
+		9FBD94571E7E2C7F009DEDAD /* ios-eureka-demoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9FBD94581E7E2C7F009DEDAD /* ios_eureka_demoUITests.swift */,
+				9FBD945A1E7E2C7F009DEDAD /* Info.plist */,
+			);
+			path = "ios-eureka-demoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FBD94341E7E2C7F009DEDAD /* ios-eureka-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FBD945D1E7E2C7F009DEDAD /* Build configuration list for PBXNativeTarget "ios-eureka-demo" */;
+			buildPhases = (
+				B31EE5ADA77226366C6C0485 /* [CP] Check Pods Manifest.lock */,
+				9FBD94311E7E2C7F009DEDAD /* Sources */,
+				9FBD94321E7E2C7F009DEDAD /* Frameworks */,
+				9FBD94331E7E2C7F009DEDAD /* Resources */,
+				44AB8314A19235E9A56CDE94 /* [CP] Embed Pods Frameworks */,
+				601717C3E56775426BF29A85 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-eureka-demo";
+			productName = "ios-eureka-demo";
+			productReference = 9FBD94351E7E2C7F009DEDAD /* ios-eureka-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9FBD94481E7E2C7F009DEDAD /* ios-eureka-demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FBD94601E7E2C7F009DEDAD /* Build configuration list for PBXNativeTarget "ios-eureka-demoTests" */;
+			buildPhases = (
+				700586C8FA993F88EFA8A8C6 /* [CP] Check Pods Manifest.lock */,
+				9FBD94451E7E2C7F009DEDAD /* Sources */,
+				9FBD94461E7E2C7F009DEDAD /* Frameworks */,
+				9FBD94471E7E2C7F009DEDAD /* Resources */,
+				A044141B37A6E8F85BC70EF5 /* [CP] Embed Pods Frameworks */,
+				A3C75F1849C3D2FB8ADA15D6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FBD944B1E7E2C7F009DEDAD /* PBXTargetDependency */,
+			);
+			name = "ios-eureka-demoTests";
+			productName = "ios-eureka-demoTests";
+			productReference = 9FBD94491E7E2C7F009DEDAD /* ios-eureka-demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9FBD94531E7E2C7F009DEDAD /* ios-eureka-demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FBD94631E7E2C7F009DEDAD /* Build configuration list for PBXNativeTarget "ios-eureka-demoUITests" */;
+			buildPhases = (
+				1B92EC36443BEA7684E4B6EF /* [CP] Check Pods Manifest.lock */,
+				9FBD94501E7E2C7F009DEDAD /* Sources */,
+				9FBD94511E7E2C7F009DEDAD /* Frameworks */,
+				9FBD94521E7E2C7F009DEDAD /* Resources */,
+				1D7322D01F0B9A45026B8023 /* [CP] Embed Pods Frameworks */,
+				85E8B8C40056D6B58957D7BD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FBD94561E7E2C7F009DEDAD /* PBXTargetDependency */,
+			);
+			name = "ios-eureka-demoUITests";
+			productName = "ios-eureka-demoUITests";
+			productReference = 9FBD94541E7E2C7F009DEDAD /* ios-eureka-demoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FBD942D1E7E2C7F009DEDAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = k_moto;
+				TargetAttributes = {
+					9FBD94341E7E2C7F009DEDAD = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					9FBD94481E7E2C7F009DEDAD = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9FBD94341E7E2C7F009DEDAD;
+					};
+					9FBD94531E7E2C7F009DEDAD = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9FBD94341E7E2C7F009DEDAD;
+					};
+				};
+			};
+			buildConfigurationList = 9FBD94301E7E2C7F009DEDAD /* Build configuration list for PBXProject "ios-eureka-demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FBD942C1E7E2C7F009DEDAD;
+			productRefGroup = 9FBD94361E7E2C7F009DEDAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FBD94341E7E2C7F009DEDAD /* ios-eureka-demo */,
+				9FBD94481E7E2C7F009DEDAD /* ios-eureka-demoTests */,
+				9FBD94531E7E2C7F009DEDAD /* ios-eureka-demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FBD94331E7E2C7F009DEDAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FBD94431E7E2C7F009DEDAD /* LaunchScreen.storyboard in Resources */,
+				9FBD94401E7E2C7F009DEDAD /* Assets.xcassets in Resources */,
+				9FBD943E1E7E2C7F009DEDAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FBD94471E7E2C7F009DEDAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FBD94521E7E2C7F009DEDAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B92EC36443BEA7684E4B6EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1D7322D01F0B9A45026B8023 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-eureka-demoUITests/Pods-ios-eureka-demoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44AB8314A19235E9A56CDE94 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-eureka-demo/Pods-ios-eureka-demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		601717C3E56775426BF29A85 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-eureka-demo/Pods-ios-eureka-demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		700586C8FA993F88EFA8A8C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		85E8B8C40056D6B58957D7BD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-eureka-demoUITests/Pods-ios-eureka-demoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A044141B37A6E8F85BC70EF5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-eureka-demoTests/Pods-ios-eureka-demoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3C75F1849C3D2FB8ADA15D6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-eureka-demoTests/Pods-ios-eureka-demoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B31EE5ADA77226366C6C0485 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FBD94311E7E2C7F009DEDAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FBD943B1E7E2C7F009DEDAD /* ViewController.swift in Sources */,
+				9FBD94391E7E2C7F009DEDAD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FBD94451E7E2C7F009DEDAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FBD944E1E7E2C7F009DEDAD /* ios_eureka_demoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FBD94501E7E2C7F009DEDAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FBD94591E7E2C7F009DEDAD /* ios_eureka_demoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9FBD944B1E7E2C7F009DEDAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FBD94341E7E2C7F009DEDAD /* ios-eureka-demo */;
+			targetProxy = 9FBD944A1E7E2C7F009DEDAD /* PBXContainerItemProxy */;
+		};
+		9FBD94561E7E2C7F009DEDAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FBD94341E7E2C7F009DEDAD /* ios-eureka-demo */;
+			targetProxy = 9FBD94551E7E2C7F009DEDAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9FBD943C1E7E2C7F009DEDAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FBD943D1E7E2C7F009DEDAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9FBD94411E7E2C7F009DEDAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FBD94421E7E2C7F009DEDAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FBD945B1E7E2C7F009DEDAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9FBD945C1E7E2C7F009DEDAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FBD945E1E7E2C7F009DEDAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85CA19E279E69C5EC648618D /* Pods-ios-eureka-demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ios-eureka-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-eureka-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9FBD945F1E7E2C7F009DEDAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D01DBC4C875754A1C744AFE /* Pods-ios-eureka-demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ios-eureka-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-eureka-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9FBD94611E7E2C7F009DEDAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99BBE461F941E0E6174C6854 /* Pods-ios-eureka-demoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ios-eureka-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-eureka-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-eureka-demo.app/ios-eureka-demo";
+			};
+			name = Debug;
+		};
+		9FBD94621E7E2C7F009DEDAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1746D57392579BDCC813B135 /* Pods-ios-eureka-demoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ios-eureka-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-eureka-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-eureka-demo.app/ios-eureka-demo";
+			};
+			name = Release;
+		};
+		9FBD94641E7E2C7F009DEDAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A43DDD101E6FBD557DD4AB35 /* Pods-ios-eureka-demoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "ios-eureka-demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-eureka-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "ios-eureka-demo";
+			};
+			name = Debug;
+		};
+		9FBD94651E7E2C7F009DEDAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DBB63033D43875411E35B5A /* Pods-ios-eureka-demoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "ios-eureka-demoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-eureka-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "ios-eureka-demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FBD94301E7E2C7F009DEDAD /* Build configuration list for PBXProject "ios-eureka-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FBD945B1E7E2C7F009DEDAD /* Debug */,
+				9FBD945C1E7E2C7F009DEDAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FBD945D1E7E2C7F009DEDAD /* Build configuration list for PBXNativeTarget "ios-eureka-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FBD945E1E7E2C7F009DEDAD /* Debug */,
+				9FBD945F1E7E2C7F009DEDAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9FBD94601E7E2C7F009DEDAD /* Build configuration list for PBXNativeTarget "ios-eureka-demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FBD94611E7E2C7F009DEDAD /* Debug */,
+				9FBD94621E7E2C7F009DEDAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9FBD94631E7E2C7F009DEDAD /* Build configuration list for PBXNativeTarget "ios-eureka-demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FBD94641E7E2C7F009DEDAD /* Debug */,
+				9FBD94651E7E2C7F009DEDAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FBD942D1E7E2C7F009DEDAD /* Project object */;
+}
