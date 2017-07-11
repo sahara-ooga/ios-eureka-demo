@@ -53,9 +53,11 @@ form +++ Section("Section1")
 
 |プロパティ名|説明|サンプル|
 |---|---|---|
-| title | セルのタイトル | row.title = "Text Row" |
+| title | セルのタイトル | `row.title = "Text Row"` |
+| value | セルの値 | `print(row.value!)` |
 
-セル内のフィールドが変更された値を取得するときは以下
+セル内のフィールドが変更された際に値を取得するときは、以下のように`.onChange{}`を使う。
+
 ```
 <<< TextRow("text"){ row in
                 row.title = "Text Row"
